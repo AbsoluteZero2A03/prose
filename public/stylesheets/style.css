@@ -1,0 +1,97 @@
+body {
+  padding: 50px;
+  font-size: 14pt;
+  font-family: 'EB Garamond', serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+#directions {
+	margin-top:40px;
+	width:50%;
+	margin:auto;
+}
+
+a {
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+
+a:hover {
+	color:#000000;
+	text-decoration: underline;
+}
+
+a:visited {
+	color:#000000;
+	text-decoration: none;
+}
+
+#directions a {
+	font-size: 20px;
+	color: #000000;
+	display:inline-block;
+	width:32%;
+	margin:auto;
+	text-align: center;
+}
+
+#directions a:hover {
+	color:#000000;
+	text-decoration: underline;
+}
+
+#directions a:visited {
+	color:#000000;
+	text-decoration: none;
+}
+
+#navbar{
+	position:relative;
+	top:0px;
+	width:100%;
+	height:10px;
+	left:0px;
+	background-color: #000;
+}
+#logo {
+	width:200px;
+	height:100px;
+	margin:auto;
+	background-image: url('../images/prose.png');
+	/*border: 1px solid black;*/
+}
+#content{
+	margin-bottom:50px;
+}
+#story {
+	background-color:#ddd;
+	width:50%;
+	margin:auto;
+	/*height:2000px;*/
+}
+#post-story {
+	margin-left:0.5%;
+}
+
+#after-story{
+	display:inline-block;
+	vertical-align:top;
+	width:75%;
+	/*height:800px;*/
+	background-color:#aaa;
+}
+#past-stories{
+	display:inline-block;
+	vertical-align:top;
+	width:24%;
+/*	height:1000px;*/
+	background-color:#999;
+}

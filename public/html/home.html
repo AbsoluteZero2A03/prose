@@ -1,0 +1,24 @@
+<div id="directions">
+	<a href="#/{{previous}}">PREVIOUS</a>
+	<a href="/random">RANDOM</a>
+	<a href="#/{{next}}">NEXT</a>
+	
+</div>
+<div id="story">
+	<h1>{{story.title}}</h1>
+	<div ng-bind-html-unsafe="story.mainContent"></div>
+</div>			
+<hr />
+<div id="post-story">
+	<div id="after-story">
+		<h1>{{story.date}}</h1>
+		
+		<div ng-bind-html-unsafe="story.post"></div>
+	</div>
+	<div id="past-stories">
+		<h1>Past stories</h1>
+		<ul>
+			<li ng-repeat="s in pastStories"><a href="#/{{s.id}}">{{s.id}}. {{s.title}}</a></li>
+		</ul>
+	</div>
+</div>
